@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,800');
+
+body {
+  background:white;
+  height: 100vh;
+  margin: 0;
+  padding:0;
+  font-family: serif;
+
+}
+
+h1 {
+  letter-spacing: 8px;
+  font-weight: 900;
+  font-size: 40px;
+  margin-left: 600px;
+  text-align: center
+
+}
+header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid black;
+  /* width: 100vw; */
+  height: 5vh;
+  padding: 25px;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.nav-links > a {
+  text-decoration: none;
+  color: black;
+  margin: 30px;
+}
+.nav-links {
+  margin-right: 75px;
+}
+.banner {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  /*align-items: center;*/
+  min-height: 40vh;
+  width: 100vw;
+  border-bottom: 1px solid black;
+  padding-bottom: 25px;
+  padding-top: 20px;
+}
+.buttons {
+    display: flex;
+
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100%;
+}
+.button {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px 70px 20px 70px;
+}
+.welcome {
+  text-align: center;
+}
+.welcome > h2 {
+  font-weight: 300;
+}
+h2 > span {
+  font-weight: 800;
+}
+
+.button {
+  text-decoration: none;
+  color: black;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: black;
+  color: white;
+}
+.info {
+  height: 30vh;
+ text-align: center;
+ padding: 39px;
+}
+.instagram {
+  grid-column: 3;
+}
+.insta-thumbnails {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.insta-thumbnails > img {
+  margin: 20px 20px 20px 0px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 5%;
+  width: 100vw;
+  border-top: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+}
+footer > small {
+  margin-left: 75px;
+}
+footer > aside {
+  margin-right: 75px;
+}
+
+/* CSS specific to the menu page */
+body {
+
+}
+.page-Goals .container{
+    background-color: red;
+
+justify-content: center;
+align-content: center;
+align-items: flex-end;
+}

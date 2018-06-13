@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "galvanize-430",
+    "staging": "galvanize-430",
+    "p1": "galvanize-1986",
+    "j": "galvanize-430"
+  }
+}

@@ -1,0 +1,48 @@
+
+.header{
+    height: 25vh;
+    text-align: center;
+    font-size: px;
+    background-color: grey;
+    color: black;
+    border-style: solid;
+    font-family: serif;
+
+}
+body{
+
+    align-items: baseline;
+    align-content: space-around;
+    color: red;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.container{
+    background-color: black;
+    border-style: solid;
+    border-width: thick;
+    border-color: red;
+font-family: cursive;
+}
+.box{
+    color: black;
+    background-color: grey;
+    border-style: solid;
+    border-width: thick;
+    border-color: Black;
+    font-family: monospace;
+}
+.article{
+
+    background-color: black;
+    border-style: solid;
+    border-width: thick;
+    border-color: red;
+
+
+}
+.container.3{
+    text-align: right;
+    color: blue;
+}
